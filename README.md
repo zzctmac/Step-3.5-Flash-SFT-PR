@@ -1,6 +1,6 @@
 # Step-3.5-Flash-SFT-PR
 
-come from [Step-3.5-Flash-SFT](https://huggingface.co/datasets/stepfun-ai/Step-3.5-Flash-SFT) provided by [StepFun](https://huggingface.co/stepfun-ai).
+13472 SWE trajectories come from [Step-3.5-Flash-SFT](https://huggingface.co/datasets/stepfun-ai/Step-3.5-Flash-SFT) provided by [StepFun](https://huggingface.co/stepfun-ai).
 
 ## License
 This dataset is made available under both Apache-2.0 and CC-BY-NC-2.0.
