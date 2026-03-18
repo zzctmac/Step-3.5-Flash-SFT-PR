@@ -1,0 +1,114 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.jmx
+*.hprof
+*.idea/
+
+# C/C++
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.dylib
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Rust
+target/
+Cargo.lock
+
+# IDEs and Editors
+# VS Code
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*.un~
+
+# Emacs
+*~
+#*
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Others
+*.orig
+*.rej
+
+# By default, ignore everything in dot directories except .gitignore
+.*
+!.gitignore
