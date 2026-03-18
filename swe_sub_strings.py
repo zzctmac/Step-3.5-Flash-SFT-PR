@@ -6,16 +6,11 @@ import pandas as pd
 random.seed(42)
 
 def random_substrings(s):
-    substr_len = min(len(s), 40)
+    substr_len = min(len(s), 100)
     ic = 1
     if len(s) <= substr_len:
         return [s] * ic
-    result = []
-    for _ in range(ic):
-        start = random.randint(0, len(s) - substr_len)
-        tmp = s[start:start + substr_len]
-        if tmp.strip() != "":
-            result.append(tmp)
+    result = [s[0:0 + substr_len]]
     return result
 
 sbf = load_dataset('SWE-bench/SWE-bench', download_mode="reuse_dataset_if_exists")
